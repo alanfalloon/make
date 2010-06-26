@@ -1,0 +1,139 @@
+
+body {
+	font: 62.5%/1.6em "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif;
+	color:#666;
+	margin:0;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+h1,h2,h3,h4 {
+	font-family:"Times New Roman", Times, serif;
+	color:#333;
+	font-weight:normal;
+	margin:15px 0;
+}
+
+h1 {
+	font-size:3.8em;
+	letter-spacing:-1px;
+	margin:20px 0;
+}
+
+h1 a {
+	text-decoration:none;
+	color:#333;
+}
+
+#footer {
+	padding:20px;
+	text-align:right;
+	border-top:1px solid #eee;
+	margin:0;
+	color:#999;
+}
+
+#footer a {
+	text-decoration:none;
+	color:#333;
+}
+
+#header {
+	margin:15px 0 0 0;
+	padding:25px 25px 40px 25px;
+	border-bottom:20px solid #fafafa;
+}
+
+#main {
+	width:760px;
+	margin:0 auto;
+	
+}
+#content {
+	margin:0 0 0 0;
+	border-right:1px solid #eee;
+	border-left:1px solid #eee;
+	padding:10px 25px 30px 25px;
+}
+
+#content p {
+	line-height:25px;
+	margin:25px 0;
+	font-size:110%;
+	word-spacing:2px;
+}
+
+#content code {
+	font-size:110%;
+	word-spacing:2px;
+}
+
+#content a {
+	text-decoration:none;
+	color:#333;
+	border-bottom:1px solid #eee;
+}
+
+#content a:hover {
+	color:#000;
+}
+
+#content h1 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:2.8em;
+	font-weight:normal;
+	margin:15px 0;
+	border-bottom:1px solid #f6f6f6;
+	padding:5px 0;
+}
+
+#content h1 a {
+	color:#444;
+	text-decoration:none;
+	border:none;
+}
+
+p.news {
+	padding:10px;
+	background:#D7F0B2;
+	margin:10px 0;
+	color:#537B17;
+	border-bottom:2px solid #BCE67D;
+	border-top:2px solid #BCE67D;
+}
+
+blockquote {
+	padding:5px 15px;
+	background:#f6f6f6;
+	margin:10px 0;
+	border:1px solid #eee;
+}
+
+#content ul, ol {
+	margin:10px 10px 10px 25px;
+	border-top:1px solid #eee;
+}
+#content li {
+	padding:10px;
+	border-bottom:1px solid #eee;
+}
+
+img {
+	background:#ccc;
+	padding:1px;
+	border:5px solid #eee;
+}
+
+a.more {
+	display:block;
+	text-align:right;
+	color:#2F460D;
+	text-decoration:none;
+	margin:10px 0 0 0 ;
+}
+a.more:hover {
+	text-decoration:underline;
+}
