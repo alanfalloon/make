@@ -69,6 +69,20 @@ has been discussed before, and you should ask for feedback from the
 other developers before you begin serious development of your feature
 since they will probably have some valuable input.
 
+Collaborating on Patches
+------------------------
+
+If you want to collaborate with other developers on a patchset, I
+strongly recommend using
+[topgit](http://kerneltrap.org/mailarchive/git/2008/8/3/2795494). topgit
+tracks each patch as a topic branch, automates updates between
+dependant topic branches (patches), and finally translates a topic
+branch and its dependencies into a patchset ready to email.
+
+Best of all, since it maintains all the history of your topic
+branches, you can push and pull between developers of a patchset
+without any of the confusion caused by rebased changes.
+
 Why?
 ====
 
